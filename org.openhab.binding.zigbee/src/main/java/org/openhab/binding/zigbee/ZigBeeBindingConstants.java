@@ -212,6 +212,26 @@ public class ZigBeeBindingConstants {
     public static final ChannelTypeUID CHANNEL_THERMOSTAT_COOLING_DEMAND = new ChannelTypeUID(
             "zigbee:thermostat_coolingdemand");
 
+    public static final String CHANNEL_NAME_EUROTRONIC_SPZB001_MIRROR_DISPLAY = "spzb0001mirrordisplay";
+    public static final String CHANNEL_LABEL_EUROTRONIC_SPZB001_MIRROR_DISPLAY = "Cooling Demand";
+    public static final ChannelTypeUID CHANNEL_EUROTRONIC_SPZB001_MIRROR_DISPLAY = new ChannelTypeUID(
+            "zigbee:eurotronic_spzb0001_mirror_display");
+
+    public static final String CHANNEL_NAME_EUROTRONIC_SPZB001_WINDOW_OPEN = "spzb0001windowopen";
+    public static final String CHANNEL_LABEL_EUROTRONIC_SPZB001_WINDOW_OPEN = "Cooling Demand";
+    public static final ChannelTypeUID CHANNEL_EUROTRONIC_SPZB001_WINDOW_OPEN = new ChannelTypeUID(
+            "zigbee:eurotronic_spzb0001_window_open");
+
+    public static final String CHANNEL_NAME_EUROTRONIC_SPZB001_BOOST = "spzb0001boost";
+    public static final String CHANNEL_LABEL_EUROTRONIC_SPZB001_BOOST = "Cooling Demand";
+    public static final ChannelTypeUID CHANNEL_EUROTRONIC_SPZB001_BOOST = new ChannelTypeUID(
+            "zigbee:eurotronic_spzb0001_boost");
+
+    public static final String CHANNEL_NAME_EUROTRONIC_SPZB001_CHILD_PROTECTION = "spzb0001childprotection";
+    public static final String CHANNEL_LABEL_EUROTRONIC_SPZB001_CHILD_PROTECTION = "Cooling Demand";
+    public static final ChannelTypeUID CHANNEL_EUROTRONIC_SPZB001_CHILD_PROTECTION = new ChannelTypeUID(
+            "zigbee:eurotronic_spzb0001_child_protection");
+
     public static final String CHANNEL_NAME_DOORLOCK_STATE = "doorlockstate";
     public static final String CHANNEL_LABEL_DOORLOCK_STATE = "Door Lock State";
     public static final ChannelTypeUID CHANNEL_DOORLOCK_STATE = new ChannelTypeUID("zigbee:door_state");

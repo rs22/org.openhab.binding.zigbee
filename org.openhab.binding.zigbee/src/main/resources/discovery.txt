@@ -16,3 +16,4 @@ xiaomi_lumiremotemini,modelId=lumi.remote.b1acn01
 innr-rc-110,vendor=innr,modelId=RC 110
 osram-switch-4x-eu,vendor=OSRAM,modelId=Switch 4x EU-LIGHTIFY
 legrand_dimmer_without_neutral,vendor=\u001f Legrand,modelId=\u001f Dimmer switch w/o neutral
+eurotronic_spzb0001,vendor=Eurotronic,modelId=SPZB0001

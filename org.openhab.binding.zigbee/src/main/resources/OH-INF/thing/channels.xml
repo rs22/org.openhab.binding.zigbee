@@ -389,14 +389,32 @@
         <state pattern="%.0f %%" readOnly="true" />
     </channel-type>
 
-    <!-- Thermostat Cooling Demand -->
-    <channel-type id="thermostat_coolingdemand" advanced="true">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Cooling Demand</label>
-        <description>The level of cooling currently demanded by the thermostat</description>
-        <category>HVAC</category>
-        <state pattern="%.0f %%" readOnly="true" />
-    </channel-type>
+
+  <!-- Eurotronic SPZB0001 Host Flags -->
+  <channel-type id="eurotronic_spzb0001_mirror_display">
+      <item-type>Switch</item-type>
+      <label>Mirror Display</label>
+      <description>Mirror Display Mode Enabled</description>
+      <category>HVAC</category>
+  </channel-type>
+  <channel-type id="eurotronic_spzb0001_window_open">
+      <item-type>Switch</item-type>
+      <label>Window Open</label>
+      <description>Window Open Mode Enabled</description>
+      <category>HVAC</category>
+  </channel-type>
+  <channel-type id="eurotronic_spzb0001_boost">
+      <item-type>Switch</item-type>
+      <label>Boost</label>
+      <description>Boost Mode Enabled</description>
+      <category>HVAC</category>
+  </channel-type>
+  <channel-type id="eurotronic_spzb0001_child_protection">
+      <item-type>Switch</item-type>
+      <label>Child Protection</label>
+      <description>Child Protection Mode Enabled</description>
+      <category>HVAC</category>
+  </channel-type>
 
 	<!-- Warning device -->
 	<channel-type id="warning_device">
